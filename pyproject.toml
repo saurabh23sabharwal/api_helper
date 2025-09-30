@@ -1,9 +1,12 @@
 [tool.poetry]
-name = "api_helper"
-version = "0.1.0"
+name = "api_helper_saurabh"
+version = "2025.0.1.0"
 description = "A package for converting api calls to pandas dataframe"
 authors = ["Saurabh Sabharwal"]
 license = "MIT"
+packages = [
+    { include = "api_helper_saurabh", from = "src" }
+]
 readme = "README.md"
 
 [tool.poetry.dependencies]
